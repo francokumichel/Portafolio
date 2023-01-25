@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #7360ff;
+    --secondary-color: #989aef;
+    --text-primary-color: #000;
+    --text-secondary-color: #615151;
+    --text-third-color: #fff;
+    --bg-primary-color: #ffffff;
+    --bg-secondary-color: #f5f6f7;
+    --bg-third-color: #1b1b32;
+    --other-color: #232323;
+    --navbar-bg: rgba(0, 0, 0, 0.4);
+    --rotate-color: #fff;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;    
+}
+
+.seccion-oscura {
+    color: var(--text-third-color);
+    background-color: var(--bg-third-color);
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-clara {
+    color: var(--text-primary-color);
+    background-color: var(--bg-primary-color);
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    background-color: #1b1b32;
+    color: #fff;
+}

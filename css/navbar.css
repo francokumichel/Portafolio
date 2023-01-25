@@ -1,0 +1,16 @@
+/* Barra de navegacion */
+.navbar {
+    padding: 0.725rem;
+    background-color: var(--bg-secondary-color);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}

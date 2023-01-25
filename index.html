@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Franco Kumichel">
+    <meta name="description" content="Portafolio de Franco Kumichel">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Python, SQL, Git">
+    <!-- Titulo -->
+    <title>Portafolio Franco Kumichel</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/braces.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Font awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/hero.css" rel="stylesheet">
+    <link href="css/sobre-mi.css" rel="stylesheet">
+    <link href="css/skills.css" rel="stylesheet">
+    <link href="css/experiencia.css" rel="stylesheet">
+    <link href="css/proyectos.css" rel="stylesheet">
+    <link href="css/contacto.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">Franco Kumichel</a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <!--
+      <div class="hero__principal d-flex flex-column justify-content-center align-items-center">
+      <div class="hero__principal">     
+        <div class="hero__principal__texto">
+          <h1>Hola, soy Franco Kumichel</h1>
+          <h2>Soy un desarrollador y estudiante de informática</h2>  
+        </div>
+        <img class="hero__imagen" src="assets/Foto Franco Kumichel.jpg" alt="Foto de Franco Kumichel">
+      </div>
+      -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="hero__texto col-12 col-md-8">
+            <h1>Hola, soy Franco Kumichel</h1>
+            <h2>Soy un desarrollador y estudiante de informática</h2>    
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn btn-info btn-info">
+                Descargar CV
+                <i class="bi bi-download"></i>
+              </button>  
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <img class="hero__imagen" src="assets/Foto Franco Kumichel.jpg" alt="Foto de Franco Kumichel">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Acerca de mi</h2>
+        <p class="seccion-texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ex metus, facilisis ut velit sed, mattis viverra neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque in massa vitae dui aliquet porta. Maecenas vel metus lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non hendrerit justo, nec pulvinar metus. Phasellus at est bibendum, placerat eros sit amet, convallis ligula. Morbi ante justo, sodales sit amet quam et, lobortis dignissim libero. Nulla porttitor, nunc eget rhoncus laoreet, diam nibh hendrerit lacus, eget rhoncus massa mauris a metus. 
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills seccion-oscura">
+      <h2 class="seccion-titulo">Skills</h2>
+      <div class="skills__iconos d-flex flex-wrap align-items-center justify-content-center">
+        <span class="icon fab fa-html5" title="HTML5"></span>
+        <span class="icon fab fa-css3-alt" title="CSS3"></span>
+        <span class="icon fab fa-js" title="JavaScript"></span>
+        <span class="icon fab fa-python" title="Python"></span>
+        <span class="icon fab fa-java" title="Java"></span>
+        <span class="icon fab fa-bootstrap" title="Bootstrap"></span>
+        <span class="icon fab fa-git-alt" title="Git"></span>
+      </div>
+    </section>
+
+    <!-- Formaciones -->
+    <section id="formaciones" class="formacion seccion-clara">
+      <h2 class="seccion-titulo">Formaciones</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="columna col-12 col-md-4">
+            <img class="card-img-top"src="assets/PNG.png" alt="Logo perteneciente a la facultad de informatica UNLP">
+            <p class="formacion__titulo">Facultad de Informatica UNLP</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rem, laudantium exercitationem repellendus harum dicta deleniti impedit assumenda quo sed ut suscipit, odit id eius ab, recusandae non molestiae facilis?</p>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <img class="card-img-top" src="assets/logo-study-oracle-one.png" alt="Logo perteneciente al curso ONE next education">
+            <p class="formacion__titulo">Oracle Next Education</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rem, laudantium exercitationem repellendus harum dicta deleniti impedit assumenda quo sed ut suscipit, odit id eius ab, recusandae non molestiae facilis?</p>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <img class="card-img-top" src="assets/buenos-aires-ciudad-seeklogo.com.svg" alt="Logo perteneciente a la ciudad de BS AS">
+            <p class="formacion__titulo">Codo a Codo 4.0: Big Data</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rem, laudantium exercitationem repellendus harum dicta deleniti impedit assumenda quo sed ut suscipit, odit id eius ab, recusandae non molestiae facilis?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos seccion-clara d-flex flex-column">
+      <h2 class="proyectos__titulo seccion-titulo">Proyectos</h2>
+      <h3 class="proyectos__descripcion">Estos son algunos de los proyectos que he creado recientemente</h3>
+      <div class="container text-center proyectos__contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyectos__proyecto">
+              <img src="assets/21532467_6460765.jpeg" alt="">
+              <div class="proyectos__proyecto__overlay">
+                <p>Proyecto 1</p>
+                <div class="proyectos__proyecto__iconos">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyectos__proyecto">
+              <img src="assets/21532467_6460765.jpeg" alt="">
+              <div class="proyectos__proyecto__overlay">
+                <p>Proyecto 2</p>
+                <div class="proyectos__proyecto__iconos">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyectos__proyecto">
+              <img src="assets/21532467_6460765.jpeg" alt="">
+              <div class="proyectos__proyecto__overlay">
+                <p>Proyecto 3</p>
+                <div class="proyectos__proyecto__iconos">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyectos__proyecto">
+              <img src="assets/21532467_6460765.jpeg" alt="">
+              <div class="proyectos__proyecto__overlay">
+                <p>Proyecto 4</p>
+                <div class="proyectos__proyecto__iconos">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyectos__proyecto">
+              <img src="assets/21532467_6460765.jpeg" alt="">
+              <div class="proyectos__proyecto__overlay">
+                <p>Proyecto 5</p>
+                <div class="proyectos__proyecto__iconos">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyectos__proyecto">
+              <img src="assets/21532467_6460765.jpeg" alt="">
+              <div class="proyectos__proyecto__overlay">
+                <p>Proyecto 6</p>
+                <div class="proyectos__proyecto__iconos">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div> 
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info btn-info">
+          Ver mas proyectos
+          <i class="bi bi-arrow-right-circle-fill proyectos__flecha"></i>
+        </button>  
+      </a>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center contacto__rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 contacto__descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:francokumichel1996@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-at-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <div class="footer__iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:francokumichel1996@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Franco Kumichel &#169;</div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

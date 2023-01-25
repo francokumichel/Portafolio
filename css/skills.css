@@ -1,0 +1,23 @@
+.skills__iconos{
+    margin-bottom: 50px;
+}
+
+.skills__iconos span{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.skills__iconos .icon {
+    color: white;
+    font-size: 3rem;
+    transition: all 0.2s ease-in;
+}
+

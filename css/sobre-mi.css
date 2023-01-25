@@ -1,0 +1,19 @@
+
+.sobre-mi {
+    min-height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* sobre mi responsive */
+
+@media screen and (max-width: 700px) {
+    .seccion-texto {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
